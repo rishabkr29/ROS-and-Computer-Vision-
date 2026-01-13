@@ -1,0 +1,2 @@
+Invoking command in '/home/ros_master/mukus_robotics/build/wheel_rpm_pipeline': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros_master/mukus_robotics -DCMAKE_INSTALL_PREFIX=/home/ros_master/mukus_robotics/install/wheel_rpm_pipeline
+Invoked command in '/home/ros_master/mukus_robotics/build/wheel_rpm_pipeline' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros_master/mukus_robotics -DCMAKE_INSTALL_PREFIX=/home/ros_master/mukus_robotics/install/wheel_rpm_pipeline

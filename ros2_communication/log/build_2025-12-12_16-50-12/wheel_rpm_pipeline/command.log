@@ -1,0 +1,2 @@
+Invoking command in '/home/ros_master/mukus_robotics/build/wheel_rpm_pipeline': /usr/bin/cmake --build /home/ros_master/mukus_robotics/build/wheel_rpm_pipeline -- -j8 -l8
+Invoked command in '/home/ros_master/mukus_robotics/build/wheel_rpm_pipeline' returned '2': /usr/bin/cmake --build /home/ros_master/mukus_robotics/build/wheel_rpm_pipeline -- -j8 -l8

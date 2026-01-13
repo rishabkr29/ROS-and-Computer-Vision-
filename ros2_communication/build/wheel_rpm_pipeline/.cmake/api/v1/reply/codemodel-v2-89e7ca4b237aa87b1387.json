@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-4e7edaa1cc407dc98790.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "wheel_rpm_pipeline",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "script_a::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-script_a-Release-689074ca1af53c089a01.json",
+					"name" : "script_a",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "script_b::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-script_b-Release-9dbadbec91ad01fc0231.json",
+					"name" : "script_b",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_cmd_vel_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_cmd_vel_publisher-Release-7a95998b1d37870d2485.json",
+					"name" : "test_cmd_vel_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-071e7bf642b8041151d6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wheel_rpm_pipeline_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wheel_rpm_pipeline_uninstall-Release-f9476a04d53b9103aeb0.json",
+					"name" : "wheel_rpm_pipeline_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ros_master/mukus_robotics/build/wheel_rpm_pipeline",
+		"source" : "/home/ros_master/mukus_robotics"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

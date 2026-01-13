@@ -1,0 +1,22 @@
+[0.021s] Invoking command in '/home/ros_master/mukus_robotics/build/wheel_rpm_pipeline': /usr/bin/cmake --build /home/ros_master/mukus_robotics/build/wheel_rpm_pipeline -- -j8 -l8
+[0.079s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.346s] Traceback (most recent call last):
+[0.346s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.347s]     from ament_package.templates import get_environment_hook_template_path
+[0.347s] ModuleNotFoundError: No module named 'ament_package'
+[0.378s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.378s]   execute_process(/usr/bin/python3
+[0.379s]   /opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.379s]   /home/ros_master/mukus_robotics/build/wheel_rpm_pipeline/ament_cmake_package_templates/templates.cmake)
+[0.379s]   returned error code 1
+[0.379s] Call Stack (most recent call first):
+[0.379s]   /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.380s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.380s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.380s]   CMakeLists.txt:7 (find_package)
+[0.380s] 
+[0.380s] [0m
+[0.381s] -- Configuring incomplete, errors occurred!
+[0.381s] See also "/home/ros_master/mukus_robotics/build/wheel_rpm_pipeline/CMakeFiles/CMakeOutput.log".
+[0.387s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[0.394s] Invoked command in '/home/ros_master/mukus_robotics/build/wheel_rpm_pipeline' returned '2': /usr/bin/cmake --build /home/ros_master/mukus_robotics/build/wheel_rpm_pipeline -- -j8 -l8

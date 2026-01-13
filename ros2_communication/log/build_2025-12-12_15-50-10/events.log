@@ -1,0 +1,355 @@
+[0.000000] (-) TimerEvent: {}
+[0.000355] (wheel_rpm_pipeline) JobQueued: {'identifier': 'wheel_rpm_pipeline', 'dependencies': OrderedDict()}
+[0.001748] (wheel_rpm_pipeline) JobStarted: {'identifier': 'wheel_rpm_pipeline'}
+[0.024010] (wheel_rpm_pipeline) JobProgress: {'identifier': 'wheel_rpm_pipeline', 'progress': 'cmake'}
+[0.025082] (wheel_rpm_pipeline) Command: {'cmd': ['/usr/bin/cmake', '/home/ros_master/mukus_robotics', '-DCMAKE_INSTALL_PREFIX=/home/ros_master/mukus_robotics/install/wheel_rpm_pipeline'], 'cwd': '/home/ros_master/mukus_robotics/build/wheel_rpm_pipeline', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/ros_master'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('LANGUAGE', 'en_IN:en'), ('USER', 'ros_master'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-gb","osLocale":"en-in","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/cursor/resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/nvidia-470:/usr/lib/nvidia-470'), ('HOME', '/home/ros_master'), ('CHROME_DESKTOP', 'cursor.desktop'), ('OLDPWD', '/home/ros_master/mukus_robotics'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-7235e77c-2.1.-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/cursor.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1054'), ('SYSTEMD_EXEC_PID', '1550'), ('IM_CONFIG_CHECK_ENV', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14389'), ('_colcon_cd_root', '/opt/ros/humble/'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros_master'), ('FORCE_COLOR', '0'), ('JOURNAL_STREAM', '8:14059'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros_master'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('COMPOSER_NO_INTERACTION', '1'), ('PATH', '/opt/ros/humble/bin:/home/ros_master/miniconda3/bin:/usr/local/cuda/bin:/home/ros_master/miniconda3/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ros_master/bt_project/Groot/build:/home/ros_master/bt_project/Groot/build'), ('SESSION_MANAGER', 'local/roboros:@/tmp/.ICE-unix/1458,unix/roboros:/tmp/.ICE-unix/1458'), ('INVOCATION_ID', '1130d02634d048caa29d5a2473507f26'), ('XDG_MENU_PREFIX', 'gnome-'), ('VSCODE_PROCESS_TITLE', 'extension-host  [1-1]'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('CURSOR_AGENT', '1'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PLDCH3'), ('LS_COLORS', ''), ('CURSOR_TRACE_ID', 'af8af80194ef422e9d16d34f870d3568'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros_master/mukus_robotics/build/wheel_rpm_pipeline'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/ros_master/.config/Cursor/CachedData/60d42bed27e5775c43ec0428d8c653c49e58e260'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('_ZO_DOCTOR', '0'), ('VSCODE_PID', '14389'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.052568] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099083] (-) TimerEvent: {}
+[0.199608] (-) TimerEvent: {}
+[0.300102] (-) TimerEvent: {}
+[0.378003] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.400414] (-) TimerEvent: {}
+[0.436119] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.441738] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.454909] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.474149] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.498664] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500507] (-) TimerEvent: {}
+[0.562483] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.564918] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600725] (-) TimerEvent: {}
+[0.701320] (-) TimerEvent: {}
+[0.801808] (-) TimerEvent: {}
+[0.821384] (wheel_rpm_pipeline) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.902059] (-) TimerEvent: {}
+[0.916661] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.002295] (-) TimerEvent: {}
+[1.102892] (-) TimerEvent: {}
+[1.203609] (-) TimerEvent: {}
+[1.207385] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.303786] (-) TimerEvent: {}
+[1.367898] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Generating done\n'}
+[1.383227] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Build files have been written to: /home/ros_master/mukus_robotics/build/wheel_rpm_pipeline\n'}
+[1.403386] (wheel_rpm_pipeline) CommandEnded: {'returncode': 0}
+[1.405503] (-) TimerEvent: {}
+[1.408372] (wheel_rpm_pipeline) JobProgress: {'identifier': 'wheel_rpm_pipeline', 'progress': 'build'}
+[1.408459] (wheel_rpm_pipeline) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros_master/mukus_robotics/build/wheel_rpm_pipeline', '--', '-j8', '-l8'], 'cwd': '/home/ros_master/mukus_robotics/build/wheel_rpm_pipeline', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/ros_master'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('LANGUAGE', 'en_IN:en'), ('USER', 'ros_master'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-gb","osLocale":"en-in","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/cursor/resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/nvidia-470:/usr/lib/nvidia-470'), ('HOME', '/home/ros_master'), ('CHROME_DESKTOP', 'cursor.desktop'), ('OLDPWD', '/home/ros_master/mukus_robotics'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-7235e77c-2.1.-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/cursor.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1054'), ('SYSTEMD_EXEC_PID', '1550'), ('IM_CONFIG_CHECK_ENV', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14389'), ('_colcon_cd_root', '/opt/ros/humble/'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros_master'), ('FORCE_COLOR', '0'), ('JOURNAL_STREAM', '8:14059'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros_master'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('COMPOSER_NO_INTERACTION', '1'), ('PATH', '/opt/ros/humble/bin:/home/ros_master/miniconda3/bin:/usr/local/cuda/bin:/home/ros_master/miniconda3/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ros_master/bt_project/Groot/build:/home/ros_master/bt_project/Groot/build'), ('SESSION_MANAGER', 'local/roboros:@/tmp/.ICE-unix/1458,unix/roboros:/tmp/.ICE-unix/1458'), ('INVOCATION_ID', '1130d02634d048caa29d5a2473507f26'), ('XDG_MENU_PREFIX', 'gnome-'), ('VSCODE_PROCESS_TITLE', 'extension-host  [1-1]'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('CURSOR_AGENT', '1'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PLDCH3'), ('LS_COLORS', ''), ('CURSOR_TRACE_ID', 'af8af80194ef422e9d16d34f870d3568'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros_master/mukus_robotics/build/wheel_rpm_pipeline'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/ros_master/.config/Cursor/CachedData/60d42bed27e5775c43ec0428d8c653c49e58e260'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('_ZO_DOCTOR', '0'), ('VSCODE_PID', '14389'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.506690] (-) TimerEvent: {}
+[1.557977] (wheel_rpm_pipeline) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/script_b.dir/script_b.cpp.o\n'}
+[1.560774] (wheel_rpm_pipeline) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/script_a.dir/script_a.cpp.o\n'}
+[1.607081] (-) TimerEvent: {}
+[1.707643] (-) TimerEvent: {}
+[1.807981] (-) TimerEvent: {}
+[1.908305] (-) TimerEvent: {}
+[2.008636] (-) TimerEvent: {}
+[2.109004] (-) TimerEvent: {}
+[2.209485] (-) TimerEvent: {}
+[2.310330] (-) TimerEvent: {}
+[2.410717] (-) TimerEvent: {}
+[2.511190] (-) TimerEvent: {}
+[2.611653] (-) TimerEvent: {}
+[2.712100] (-) TimerEvent: {}
+[2.812572] (-) TimerEvent: {}
+[2.913153] (-) TimerEvent: {}
+[3.013571] (-) TimerEvent: {}
+[3.113990] (-) TimerEvent: {}
+[3.222172] (-) TimerEvent: {}
+[3.322639] (-) TimerEvent: {}
+[3.423177] (-) TimerEvent: {}
+[3.523611] (-) TimerEvent: {}
+[3.624021] (-) TimerEvent: {}
+[3.724691] (-) TimerEvent: {}
+[3.825277] (-) TimerEvent: {}
+[3.925939] (-) TimerEvent: {}
+[4.026404] (-) TimerEvent: {}
+[4.127031] (-) TimerEvent: {}
+[4.227593] (-) TimerEvent: {}
+[4.328018] (-) TimerEvent: {}
+[4.428489] (-) TimerEvent: {}
+[4.528962] (-) TimerEvent: {}
+[4.629318] (-) TimerEvent: {}
+[4.729705] (-) TimerEvent: {}
+[4.830143] (-) TimerEvent: {}
+[4.930544] (-) TimerEvent: {}
+[5.031013] (-) TimerEvent: {}
+[5.131446] (-) TimerEvent: {}
+[5.231952] (-) TimerEvent: {}
+[5.332406] (-) TimerEvent: {}
+[5.432802] (-) TimerEvent: {}
+[5.533195] (-) TimerEvent: {}
+[5.633711] (-) TimerEvent: {}
+[5.734275] (-) TimerEvent: {}
+[5.834741] (-) TimerEvent: {}
+[5.935141] (-) TimerEvent: {}
+[6.035541] (-) TimerEvent: {}
+[6.135940] (-) TimerEvent: {}
+[6.236293] (-) TimerEvent: {}
+[6.336676] (-) TimerEvent: {}
+[6.437059] (-) TimerEvent: {}
+[6.537457] (-) TimerEvent: {}
+[6.637829] (-) TimerEvent: {}
+[6.738261] (-) TimerEvent: {}
+[6.838629] (-) TimerEvent: {}
+[6.939008] (-) TimerEvent: {}
+[7.039400] (-) TimerEvent: {}
+[7.139785] (-) TimerEvent: {}
+[7.240250] (-) TimerEvent: {}
+[7.340700] (-) TimerEvent: {}
+[7.441142] (-) TimerEvent: {}
+[7.541548] (-) TimerEvent: {}
+[7.642006] (-) TimerEvent: {}
+[7.742413] (-) TimerEvent: {}
+[7.842840] (-) TimerEvent: {}
+[7.943367] (-) TimerEvent: {}
+[8.043969] (-) TimerEvent: {}
+[8.144528] (-) TimerEvent: {}
+[8.245082] (-) TimerEvent: {}
+[8.345590] (-) TimerEvent: {}
+[8.446219] (-) TimerEvent: {}
+[8.546736] (-) TimerEvent: {}
+[8.647208] (-) TimerEvent: {}
+[8.747667] (-) TimerEvent: {}
+[8.848140] (-) TimerEvent: {}
+[8.948673] (-) TimerEvent: {}
+[9.010139] (wheel_rpm_pipeline) StdoutLine: {'line': b'[ 75%] Linking CXX executable script_b\n'}
+[9.048915] (-) TimerEvent: {}
+[9.149488] (-) TimerEvent: {}
+[9.250069] (-) TimerEvent: {}
+[9.300053] (wheel_rpm_pipeline) StdoutLine: {'line': b'[ 75%] Built target script_b\n'}
+[9.350264] (-) TimerEvent: {}
+[9.451162] (-) TimerEvent: {}
+[9.551698] (-) TimerEvent: {}
+[9.652221] (-) TimerEvent: {}
+[9.752833] (-) TimerEvent: {}
+[9.853635] (-) TimerEvent: {}
+[9.954344] (-) TimerEvent: {}
+[10.055036] (-) TimerEvent: {}
+[10.155509] (-) TimerEvent: {}
+[10.255937] (-) TimerEvent: {}
+[10.356464] (-) TimerEvent: {}
+[10.457552] (-) TimerEvent: {}
+[10.557976] (-) TimerEvent: {}
+[10.658344] (-) TimerEvent: {}
+[10.758664] (-) TimerEvent: {}
+[10.858972] (-) TimerEvent: {}
+[10.962044] (-) TimerEvent: {}
+[11.062517] (-) TimerEvent: {}
+[11.163056] (-) TimerEvent: {}
+[11.263674] (-) TimerEvent: {}
+[11.364283] (-) TimerEvent: {}
+[11.464906] (-) TimerEvent: {}
+[11.565437] (-) TimerEvent: {}
+[11.665884] (-) TimerEvent: {}
+[11.766299] (-) TimerEvent: {}
+[11.866810] (-) TimerEvent: {}
+[11.967381] (-) TimerEvent: {}
+[12.067953] (-) TimerEvent: {}
+[12.168450] (-) TimerEvent: {}
+[12.268939] (-) TimerEvent: {}
+[12.369414] (-) TimerEvent: {}
+[12.470059] (-) TimerEvent: {}
+[12.570818] (-) TimerEvent: {}
+[12.671589] (-) TimerEvent: {}
+[12.772330] (-) TimerEvent: {}
+[12.873143] (-) TimerEvent: {}
+[12.973799] (-) TimerEvent: {}
+[13.074358] (-) TimerEvent: {}
+[13.174838] (-) TimerEvent: {}
+[13.275324] (-) TimerEvent: {}
+[13.375896] (-) TimerEvent: {}
+[13.476565] (-) TimerEvent: {}
+[13.577176] (-) TimerEvent: {}
+[13.677741] (-) TimerEvent: {}
+[13.778286] (-) TimerEvent: {}
+[13.878619] (-) TimerEvent: {}
+[13.979008] (-) TimerEvent: {}
+[14.079469] (-) TimerEvent: {}
+[14.179978] (-) TimerEvent: {}
+[14.280420] (-) TimerEvent: {}
+[14.380849] (-) TimerEvent: {}
+[14.481263] (-) TimerEvent: {}
+[14.581704] (-) TimerEvent: {}
+[14.682246] (-) TimerEvent: {}
+[14.782700] (-) TimerEvent: {}
+[14.883222] (-) TimerEvent: {}
+[14.983671] (-) TimerEvent: {}
+[15.084275] (-) TimerEvent: {}
+[15.184888] (-) TimerEvent: {}
+[15.285350] (-) TimerEvent: {}
+[15.385781] (-) TimerEvent: {}
+[15.486266] (-) TimerEvent: {}
+[15.586737] (-) TimerEvent: {}
+[15.687176] (-) TimerEvent: {}
+[15.787663] (-) TimerEvent: {}
+[15.888232] (-) TimerEvent: {}
+[15.988720] (-) TimerEvent: {}
+[16.089360] (-) TimerEvent: {}
+[16.190089] (-) TimerEvent: {}
+[16.290825] (-) TimerEvent: {}
+[16.391450] (-) TimerEvent: {}
+[16.491954] (-) TimerEvent: {}
+[16.592324] (-) TimerEvent: {}
+[16.692718] (-) TimerEvent: {}
+[16.793375] (-) TimerEvent: {}
+[16.893965] (-) TimerEvent: {}
+[16.994645] (-) TimerEvent: {}
+[17.095301] (-) TimerEvent: {}
+[17.195849] (-) TimerEvent: {}
+[17.296449] (-) TimerEvent: {}
+[17.397105] (-) TimerEvent: {}
+[17.497737] (-) TimerEvent: {}
+[17.598283] (-) TimerEvent: {}
+[17.698780] (-) TimerEvent: {}
+[17.799317] (-) TimerEvent: {}
+[17.899781] (-) TimerEvent: {}
+[18.000172] (-) TimerEvent: {}
+[18.100497] (-) TimerEvent: {}
+[18.200973] (-) TimerEvent: {}
+[18.301417] (-) TimerEvent: {}
+[18.401946] (-) TimerEvent: {}
+[18.502465] (-) TimerEvent: {}
+[18.603034] (-) TimerEvent: {}
+[18.703497] (-) TimerEvent: {}
+[18.803970] (-) TimerEvent: {}
+[18.904486] (-) TimerEvent: {}
+[19.005008] (-) TimerEvent: {}
+[19.105437] (-) TimerEvent: {}
+[19.205983] (-) TimerEvent: {}
+[19.306509] (-) TimerEvent: {}
+[19.406912] (-) TimerEvent: {}
+[19.507434] (-) TimerEvent: {}
+[19.608098] (-) TimerEvent: {}
+[19.708592] (-) TimerEvent: {}
+[19.809050] (-) TimerEvent: {}
+[19.909513] (-) TimerEvent: {}
+[20.009916] (-) TimerEvent: {}
+[20.110513] (-) TimerEvent: {}
+[20.211023] (-) TimerEvent: {}
+[20.311554] (-) TimerEvent: {}
+[20.412027] (-) TimerEvent: {}
+[20.512464] (-) TimerEvent: {}
+[20.612930] (-) TimerEvent: {}
+[20.713474] (-) TimerEvent: {}
+[20.814158] (-) TimerEvent: {}
+[20.914716] (-) TimerEvent: {}
+[21.015166] (-) TimerEvent: {}
+[21.115536] (-) TimerEvent: {}
+[21.215927] (-) TimerEvent: {}
+[21.316358] (-) TimerEvent: {}
+[21.416840] (-) TimerEvent: {}
+[21.517444] (-) TimerEvent: {}
+[21.617956] (-) TimerEvent: {}
+[21.718582] (-) TimerEvent: {}
+[21.819161] (-) TimerEvent: {}
+[21.919603] (-) TimerEvent: {}
+[22.020021] (-) TimerEvent: {}
+[22.120568] (-) TimerEvent: {}
+[22.221101] (-) TimerEvent: {}
+[22.321664] (-) TimerEvent: {}
+[22.422210] (-) TimerEvent: {}
+[22.522770] (-) TimerEvent: {}
+[22.623204] (-) TimerEvent: {}
+[22.723531] (-) TimerEvent: {}
+[22.823821] (-) TimerEvent: {}
+[22.924253] (-) TimerEvent: {}
+[23.024710] (-) TimerEvent: {}
+[23.125233] (-) TimerEvent: {}
+[23.225814] (-) TimerEvent: {}
+[23.326468] (-) TimerEvent: {}
+[23.427050] (-) TimerEvent: {}
+[23.527506] (-) TimerEvent: {}
+[23.628066] (-) TimerEvent: {}
+[23.728616] (-) TimerEvent: {}
+[23.829198] (-) TimerEvent: {}
+[23.929667] (-) TimerEvent: {}
+[24.030160] (-) TimerEvent: {}
+[24.130606] (-) TimerEvent: {}
+[24.231010] (-) TimerEvent: {}
+[24.331407] (-) TimerEvent: {}
+[24.431881] (-) TimerEvent: {}
+[24.532334] (-) TimerEvent: {}
+[24.632792] (-) TimerEvent: {}
+[24.733232] (-) TimerEvent: {}
+[24.833800] (-) TimerEvent: {}
+[24.934502] (-) TimerEvent: {}
+[25.035144] (-) TimerEvent: {}
+[25.135669] (-) TimerEvent: {}
+[25.236128] (-) TimerEvent: {}
+[25.336656] (-) TimerEvent: {}
+[25.437094] (-) TimerEvent: {}
+[25.537463] (-) TimerEvent: {}
+[25.637916] (-) TimerEvent: {}
+[25.738403] (-) TimerEvent: {}
+[25.838918] (-) TimerEvent: {}
+[25.939409] (-) TimerEvent: {}
+[26.039899] (-) TimerEvent: {}
+[26.140355] (-) TimerEvent: {}
+[26.240908] (-) TimerEvent: {}
+[26.341451] (-) TimerEvent: {}
+[26.442100] (-) TimerEvent: {}
+[26.542679] (-) TimerEvent: {}
+[26.643169] (-) TimerEvent: {}
+[26.743603] (-) TimerEvent: {}
+[26.844053] (-) TimerEvent: {}
+[26.944621] (-) TimerEvent: {}
+[27.045235] (-) TimerEvent: {}
+[27.145668] (-) TimerEvent: {}
+[27.246038] (-) TimerEvent: {}
+[27.346469] (-) TimerEvent: {}
+[27.446934] (-) TimerEvent: {}
+[27.547417] (-) TimerEvent: {}
+[27.647960] (-) TimerEvent: {}
+[27.748489] (-) TimerEvent: {}
+[27.848930] (-) TimerEvent: {}
+[27.949412] (-) TimerEvent: {}
+[28.049906] (-) TimerEvent: {}
+[28.150375] (-) TimerEvent: {}
+[28.251059] (-) TimerEvent: {}
+[28.351513] (-) TimerEvent: {}
+[28.452116] (-) TimerEvent: {}
+[28.552754] (-) TimerEvent: {}
+[28.572031] (wheel_rpm_pipeline) StdoutLine: {'line': b'[100%] Linking CXX executable script_a\n'}
+[28.652995] (-) TimerEvent: {}
+[28.753480] (-) TimerEvent: {}
+[28.854009] (-) TimerEvent: {}
+[28.954462] (-) TimerEvent: {}
+[29.054823] (-) TimerEvent: {}
+[29.155273] (-) TimerEvent: {}
+[29.255750] (-) TimerEvent: {}
+[29.356459] (-) TimerEvent: {}
+[29.457189] (-) TimerEvent: {}
+[29.557701] (-) TimerEvent: {}
+[29.658330] (-) TimerEvent: {}
+[29.758936] (-) TimerEvent: {}
+[29.859453] (-) TimerEvent: {}
+[29.961467] (-) TimerEvent: {}
+[30.062177] (-) TimerEvent: {}
+[30.162687] (-) TimerEvent: {}
+[30.230223] (wheel_rpm_pipeline) StdoutLine: {'line': b'[100%] Built target script_a\n'}
+[30.261569] (wheel_rpm_pipeline) CommandEnded: {'returncode': 0}
+[30.263021] (-) TimerEvent: {}
+[30.263304] (wheel_rpm_pipeline) JobProgress: {'identifier': 'wheel_rpm_pipeline', 'progress': 'install'}
+[30.296240] (wheel_rpm_pipeline) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros_master/mukus_robotics/build/wheel_rpm_pipeline'], 'cwd': '/home/ros_master/mukus_robotics/build/wheel_rpm_pipeline', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/ros_master'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('LANGUAGE', 'en_IN:en'), ('USER', 'ros_master'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-gb","osLocale":"en-in","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/cursor/resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/nvidia-470:/usr/lib/nvidia-470'), ('HOME', '/home/ros_master'), ('CHROME_DESKTOP', 'cursor.desktop'), ('OLDPWD', '/home/ros_master/mukus_robotics'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-7235e77c-2.1.-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/cursor.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1054'), ('SYSTEMD_EXEC_PID', '1550'), ('IM_CONFIG_CHECK_ENV', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14389'), ('_colcon_cd_root', '/opt/ros/humble/'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros_master'), ('FORCE_COLOR', '0'), ('JOURNAL_STREAM', '8:14059'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros_master'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('COMPOSER_NO_INTERACTION', '1'), ('PATH', '/opt/ros/humble/bin:/home/ros_master/miniconda3/bin:/usr/local/cuda/bin:/home/ros_master/miniconda3/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ros_master/bt_project/Groot/build:/home/ros_master/bt_project/Groot/build'), ('SESSION_MANAGER', 'local/roboros:@/tmp/.ICE-unix/1458,unix/roboros:/tmp/.ICE-unix/1458'), ('INVOCATION_ID', '1130d02634d048caa29d5a2473507f26'), ('XDG_MENU_PREFIX', 'gnome-'), ('VSCODE_PROCESS_TITLE', 'extension-host  [1-1]'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('CURSOR_AGENT', '1'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PLDCH3'), ('LS_COLORS', ''), ('CURSOR_TRACE_ID', 'af8af80194ef422e9d16d34f870d3568'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros_master/mukus_robotics/build/wheel_rpm_pipeline'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/ros_master/.config/Cursor/CachedData/60d42bed27e5775c43ec0428d8c653c49e58e260'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('_ZO_DOCTOR', '0'), ('VSCODE_PID', '14389'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[30.327051] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[30.327652] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Installing: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/lib/wheel_rpm_pipeline/script_a\n'}
+[30.329625] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Set runtime path of "/home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/lib/wheel_rpm_pipeline/script_a" to ""\n'}
+[30.330048] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Installing: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/lib/wheel_rpm_pipeline/script_b\n'}
+[30.330889] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Installing: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/ament_index/resource_index/package_run_dependencies/wheel_rpm_pipeline\n'}
+[30.331589] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Installing: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/ament_index/resource_index/parent_prefix_path/wheel_rpm_pipeline\n'}
+[30.332666] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Installing: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/environment/ament_prefix_path.sh\n'}
+[30.333290] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Installing: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/environment/ament_prefix_path.dsv\n'}
+[30.333848] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Installing: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/environment/path.sh\n'}
+[30.334366] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Installing: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/environment/path.dsv\n'}
+[30.334896] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Installing: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/local_setup.bash\n'}
+[30.335377] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Installing: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/local_setup.sh\n'}
+[30.335698] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Installing: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/local_setup.zsh\n'}
+[30.336013] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Installing: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/local_setup.dsv\n'}
+[30.336299] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Installing: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/package.dsv\n'}
+[30.336570] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Installing: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/ament_index/resource_index/packages/wheel_rpm_pipeline\n'}
+[30.336842] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Installing: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/cmake/wheel_rpm_pipelineConfig.cmake\n'}
+[30.337158] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Installing: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/cmake/wheel_rpm_pipelineConfig-version.cmake\n'}
+[30.337430] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Installing: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/package.xml\n'}
+[30.339293] (wheel_rpm_pipeline) CommandEnded: {'returncode': 0}
+[30.363160] (-) TimerEvent: {}
+[30.425088] (wheel_rpm_pipeline) JobEnded: {'identifier': 'wheel_rpm_pipeline', 'rc': 0}
+[30.426583] (-) EventReactorShutdown: {}

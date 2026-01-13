@@ -1,0 +1,84 @@
+[0.000000] (-) TimerEvent: {}
+[0.000366] (wheel_rpm_pipeline) JobQueued: {'identifier': 'wheel_rpm_pipeline', 'dependencies': OrderedDict()}
+[0.001858] (wheel_rpm_pipeline) JobStarted: {'identifier': 'wheel_rpm_pipeline'}
+[0.023333] (wheel_rpm_pipeline) JobProgress: {'identifier': 'wheel_rpm_pipeline', 'progress': 'cmake'}
+[0.024436] (wheel_rpm_pipeline) Command: {'cmd': ['/usr/bin/cmake', '/home/ros_master/mukus_robotics', '-DCMAKE_INSTALL_PREFIX=/home/ros_master/mukus_robotics/install/wheel_rpm_pipeline'], 'cwd': '/home/ros_master/mukus_robotics/build/wheel_rpm_pipeline', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/ros_master'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('LANGUAGE', 'en_IN:en'), ('USER', 'ros_master'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-gb","osLocale":"en-in","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/cursor/resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/nvidia-470:/usr/lib/nvidia-470'), ('HOME', '/home/ros_master'), ('CHROME_DESKTOP', 'cursor.desktop'), ('OLDPWD', '/home/ros_master/mukus_robotics'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-7235e77c-2.1.-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/cursor.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1054'), ('SYSTEMD_EXEC_PID', '1550'), ('IM_CONFIG_CHECK_ENV', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14389'), ('_colcon_cd_root', '/opt/ros/humble/'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros_master'), ('FORCE_COLOR', '0'), ('JOURNAL_STREAM', '8:14059'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros_master'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('COMPOSER_NO_INTERACTION', '1'), ('PATH', '/opt/ros/humble/bin:/home/ros_master/miniconda3/bin:/usr/local/cuda/bin:/home/ros_master/miniconda3/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ros_master/bt_project/Groot/build:/home/ros_master/bt_project/Groot/build'), ('SESSION_MANAGER', 'local/roboros:@/tmp/.ICE-unix/1458,unix/roboros:/tmp/.ICE-unix/1458'), ('INVOCATION_ID', '1130d02634d048caa29d5a2473507f26'), ('XDG_MENU_PREFIX', 'gnome-'), ('VSCODE_PROCESS_TITLE', 'extension-host  [1-1]'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('CURSOR_AGENT', '1'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PLDCH3'), ('LS_COLORS', ''), ('CURSOR_TRACE_ID', 'af8af80194ef422e9d16d34f870d3568'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros_master/mukus_robotics/build/wheel_rpm_pipeline'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/ros_master/.config/Cursor/CachedData/60d42bed27e5775c43ec0428d8c653c49e58e260'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('_ZO_DOCTOR', '0'), ('VSCODE_PID', '14389'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098886] (-) TimerEvent: {}
+[0.168657] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199035] (-) TimerEvent: {}
+[0.299610] (-) TimerEvent: {}
+[0.400106] (-) TimerEvent: {}
+[0.500668] (-) TimerEvent: {}
+[0.601188] (-) TimerEvent: {}
+[0.701806] (-) TimerEvent: {}
+[0.802365] (-) TimerEvent: {}
+[0.815277] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.902610] (-) TimerEvent: {}
+[1.003186] (-) TimerEvent: {}
+[1.103645] (-) TimerEvent: {}
+[1.204049] (-) TimerEvent: {}
+[1.301675] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.304163] (-) TimerEvent: {}
+[1.404518] (-) TimerEvent: {}
+[1.505037] (-) TimerEvent: {}
+[1.605442] (-) TimerEvent: {}
+[1.689760] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.705560] (-) TimerEvent: {}
+[1.717574] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.755496] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.793167] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.805733] (-) TimerEvent: {}
+[1.841201] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.905940] (-) TimerEvent: {}
+[2.006368] (-) TimerEvent: {}
+[2.106722] (-) TimerEvent: {}
+[2.145661] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.162106] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.206930] (-) TimerEvent: {}
+[2.307480] (-) TimerEvent: {}
+[2.407902] (-) TimerEvent: {}
+[2.508322] (-) TimerEvent: {}
+[2.608777] (-) TimerEvent: {}
+[2.709885] (-) TimerEvent: {}
+[2.711468] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.810096] (-) TimerEvent: {}
+[2.847134] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.910317] (-) TimerEvent: {}
+[2.948204] (wheel_rpm_pipeline) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.010511] (-) TimerEvent: {}
+[3.063512] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[3.110849] (-) TimerEvent: {}
+[3.211377] (-) TimerEvent: {}
+[3.311829] (-) TimerEvent: {}
+[3.412300] (-) TimerEvent: {}
+[3.512768] (-) TimerEvent: {}
+[3.526724] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[3.527546] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.613034] (-) TimerEvent: {}
+[3.713737] (-) TimerEvent: {}
+[3.814494] (-) TimerEvent: {}
+[3.817386] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.819675] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.914632] (-) TimerEvent: {}
+[4.015010] (-) TimerEvent: {}
+[4.109291] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[4.115139] (-) TimerEvent: {}
+[4.175439] (wheel_rpm_pipeline) StderrLine: {'line': b'CMake Error at CMakeLists.txt:15 (target_link_libraries):\n'}
+[4.175980] (wheel_rpm_pipeline) StderrLine: {'line': b'  The plain signature for target_link_libraries has already been used with\n'}
+[4.176279] (wheel_rpm_pipeline) StderrLine: {'line': b'  the target "script_a".  All uses of target_link_libraries with a target\n'}
+[4.176604] (wheel_rpm_pipeline) StderrLine: {'line': b'  must be either all-keyword or all-plain.\n'}
+[4.176894] (wheel_rpm_pipeline) StderrLine: {'line': b'\n'}
+[4.177119] (wheel_rpm_pipeline) StderrLine: {'line': b'  The uses of the plain signature are here:\n'}
+[4.177416] (wheel_rpm_pipeline) StderrLine: {'line': b'\n'}
+[4.177609] (wheel_rpm_pipeline) StderrLine: {'line': b'   * /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:145 (target_link_libraries)\n'}
+[4.177832] (wheel_rpm_pipeline) StderrLine: {'line': b'\n'}
+[4.178024] (wheel_rpm_pipeline) StderrLine: {'line': b'\n'}
+[4.178204] (wheel_rpm_pipeline) StderrLine: {'line': b'\n'}
+[4.215462] (-) TimerEvent: {}
+[4.315963] (-) TimerEvent: {}
+[4.371095] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.371559] (wheel_rpm_pipeline) StdoutLine: {'line': b'See also "/home/ros_master/mukus_robotics/build/wheel_rpm_pipeline/CMakeFiles/CMakeOutput.log".\n'}
+[4.397023] (wheel_rpm_pipeline) CommandEnded: {'returncode': 1}
+[4.416173] (-) TimerEvent: {}
+[4.468038] (wheel_rpm_pipeline) JobEnded: {'identifier': 'wheel_rpm_pipeline', 'rc': 1}
+[4.479368] (-) EventReactorShutdown: {}

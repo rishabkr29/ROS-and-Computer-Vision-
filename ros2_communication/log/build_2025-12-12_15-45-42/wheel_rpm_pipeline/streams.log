@@ -1,0 +1,21 @@
+[0.016s] Invoking command in '/home/ros_master/mukus_robotics/build/wheel_rpm_pipeline': /usr/bin/cmake /home/ros_master/mukus_robotics -DCMAKE_INSTALL_PREFIX=/home/ros_master/mukus_robotics/install/wheel_rpm_pipeline
+[0.059s] [31mCMake Error at CMakeLists.txt:7 (find_package):
+[0.059s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.059s]   has asked CMake to find a package configuration file provided by
+[0.059s]   "ament_cmake", but CMake did not find one.
+[0.059s] 
+[0.060s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.060s]   any of the following names:
+[0.060s] 
+[0.060s]     ament_cmakeConfig.cmake
+[0.060s]     ament_cmake-config.cmake
+[0.061s] 
+[0.061s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.061s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.061s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.062s]   has been installed.
+[0.062s] 
+[0.062s] [0m
+[0.062s] -- Configuring incomplete, errors occurred!
+[0.063s] See also "/home/ros_master/mukus_robotics/build/wheel_rpm_pipeline/CMakeFiles/CMakeOutput.log".
+[0.065s] Invoked command in '/home/ros_master/mukus_robotics/build/wheel_rpm_pipeline' returned '1': /usr/bin/cmake /home/ros_master/mukus_robotics -DCMAKE_INSTALL_PREFIX=/home/ros_master/mukus_robotics/install/wheel_rpm_pipeline

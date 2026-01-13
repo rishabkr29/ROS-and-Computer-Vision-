@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/script_b.dir/script_b.cpp.o -o script_b 

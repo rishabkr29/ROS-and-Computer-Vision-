@@ -1,0 +1,27 @@
+[0.068s] Invoking command in '/home/ros_master/mukus_robotics/build/wheel_rpm_pipeline': /usr/bin/cmake /home/ros_master/mukus_robotics -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ros_master/mukus_robotics/install/wheel_rpm_pipeline
+[1.395s] -- The CXX compiler identification is GNU 11.4.0
+[1.444s] -- Detecting CXX compiler ABI info
+[1.794s] -- Detecting CXX compiler ABI info - done
+[1.820s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.823s] -- Detecting CXX compile features
+[1.856s] -- Detecting CXX compile features - done
+[2.141s] [31mCMake Error at CMakeLists.txt:7 (find_package):
+[2.141s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[2.141s]   has asked CMake to find a package configuration file provided by
+[2.141s]   "ament_cmake", but CMake did not find one.
+[2.141s] 
+[2.142s]   Could not find a package configuration file provided by "ament_cmake" with
+[2.142s]   any of the following names:
+[2.142s] 
+[2.142s]     ament_cmakeConfig.cmake
+[2.142s]     ament_cmake-config.cmake
+[2.143s] 
+[2.143s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[2.143s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[2.143s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[2.143s]   has been installed.
+[2.143s] 
+[2.144s] [0m
+[2.144s] -- Configuring incomplete, errors occurred!
+[2.144s] See also "/home/ros_master/mukus_robotics/build/wheel_rpm_pipeline/CMakeFiles/CMakeOutput.log".
+[2.183s] Invoked command in '/home/ros_master/mukus_robotics/build/wheel_rpm_pipeline' returned '1': /usr/bin/cmake /home/ros_master/mukus_robotics -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ros_master/mukus_robotics/install/wheel_rpm_pipeline

@@ -1,0 +1,20 @@
+[ 50%] Built target script_b
+[100%] Built target script_a
+-- Install configuration: "Release"
+-- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/lib/wheel_rpm_pipeline/script_a
+-- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/lib/wheel_rpm_pipeline/script_b
+-- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/ament_index/resource_index/package_run_dependencies/wheel_rpm_pipeline
+-- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/ament_index/resource_index/parent_prefix_path/wheel_rpm_pipeline
+-- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/environment/path.sh
+-- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/environment/path.dsv
+-- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/local_setup.bash
+-- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/local_setup.sh
+-- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/local_setup.zsh
+-- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/local_setup.dsv
+-- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/package.dsv
+-- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/ament_index/resource_index/packages/wheel_rpm_pipeline
+-- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/cmake/wheel_rpm_pipelineConfig.cmake
+-- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/cmake/wheel_rpm_pipelineConfig-version.cmake
+-- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/package.xml

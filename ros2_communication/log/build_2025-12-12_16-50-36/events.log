@@ -1,0 +1,130 @@
+[0.000000] (-) TimerEvent: {}
+[0.000611] (wheel_rpm_pipeline) JobQueued: {'identifier': 'wheel_rpm_pipeline', 'dependencies': OrderedDict()}
+[0.001009] (wheel_rpm_pipeline) JobStarted: {'identifier': 'wheel_rpm_pipeline'}
+[0.012520] (wheel_rpm_pipeline) JobProgress: {'identifier': 'wheel_rpm_pipeline', 'progress': 'cmake'}
+[0.013170] (wheel_rpm_pipeline) JobProgress: {'identifier': 'wheel_rpm_pipeline', 'progress': 'build'}
+[0.013856] (wheel_rpm_pipeline) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros_master/mukus_robotics/build/wheel_rpm_pipeline', '--', '-j8', '-l8'], 'cwd': '/home/ros_master/mukus_robotics/build/wheel_rpm_pipeline', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'ros_master'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '5'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/nvidia-470:/usr/lib/nvidia-470:/usr/lib/nvidia-470:/usr/lib/nvidia-470:/usr/lib/nvidia-470'), ('HOME', '/home/ros_master'), ('OLDPWD', '/home/ros_master'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1054'), ('SYSTEMD_EXEC_PID', '2450'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15753'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros_master/mukus_robotics/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros_master'), ('JOURNAL_STREAM', '8:16798'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros_master'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ros_master/miniconda3/bin:/usr/local/cuda/bin:/home/ros_master/miniconda3/bin:/usr/local/cuda/bin:/home/ros_master/miniconda3/bin:/usr/local/cuda/bin:/home/ros_master/miniconda3/bin:/usr/local/cuda/bin:/home/ros_master/miniconda3/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ros_master/bt_project/Groot/build:/home/ros_master/bt_project/Groot/build:/home/ros_master/bt_project/Groot/build:/home/ros_master/bt_project/Groot/build:/home/ros_master/bt_project/Groot/build'), ('SESSION_MANAGER', 'local/roboros:@/tmp/.ICE-unix/1458,unix/roboros:/tmp/.ICE-unix/1458'), ('INVOCATION_ID', '7e3593bf6b3343e1864c17f7739ac4da'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PLDCH3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/ros_master/mukus_robotics/install/wheel_rpm_pipeline'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:20c34bec-b304-4489-895c-2a341c294c63'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros_master/mukus_robotics/build/wheel_rpm_pipeline'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ros_master/mukus_robotics/install/wheel_rpm_pipeline:/opt/ros/humble')]), 'shell': False}
+[0.054314] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099709] (-) TimerEvent: {}
+[0.200131] (-) TimerEvent: {}
+[0.223638] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.276102] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.279045] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.285723] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.296358] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.300243] (-) TimerEvent: {}
+[0.311370] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.349212] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.350767] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400294] (-) TimerEvent: {}
+[0.493094] (wheel_rpm_pipeline) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500405] (-) TimerEvent: {}
+[0.547626] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.600500] (-) TimerEvent: {}
+[0.649284] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.666917] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Generating done\n'}
+[0.673995] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Build files have been written to: /home/ros_master/mukus_robotics/build/wheel_rpm_pipeline\n'}
+[0.700635] (-) TimerEvent: {}
+[0.721575] (wheel_rpm_pipeline) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target script_b\x1b[0m\n'}
+[0.722236] (wheel_rpm_pipeline) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target script_a\x1b[0m\n'}
+[0.738084] (wheel_rpm_pipeline) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/test_cmd_vel_publisher.dir/test_cmd_vel_publisher.cpp.o\x1b[0m\n'}
+[0.741501] (wheel_rpm_pipeline) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/script_b.dir/script_b.cpp.o\x1b[0m\n'}
+[0.749959] (wheel_rpm_pipeline) StdoutLine: {'line': b'[ 66%] Built target script_a\n'}
+[0.800758] (-) TimerEvent: {}
+[0.901172] (-) TimerEvent: {}
+[1.001637] (-) TimerEvent: {}
+[1.102093] (-) TimerEvent: {}
+[1.202676] (-) TimerEvent: {}
+[1.301485] (wheel_rpm_pipeline) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable script_b\x1b[0m\n'}
+[1.302762] (-) TimerEvent: {}
+[1.403163] (-) TimerEvent: {}
+[1.448276] (wheel_rpm_pipeline) StdoutLine: {'line': b'[ 83%] Built target script_b\n'}
+[1.503315] (-) TimerEvent: {}
+[1.603729] (-) TimerEvent: {}
+[1.704088] (-) TimerEvent: {}
+[1.804540] (-) TimerEvent: {}
+[1.904945] (-) TimerEvent: {}
+[2.005390] (-) TimerEvent: {}
+[2.105778] (-) TimerEvent: {}
+[2.206188] (-) TimerEvent: {}
+[2.306626] (-) TimerEvent: {}
+[2.407059] (-) TimerEvent: {}
+[2.507516] (-) TimerEvent: {}
+[2.607975] (-) TimerEvent: {}
+[2.708395] (-) TimerEvent: {}
+[2.808748] (-) TimerEvent: {}
+[2.909163] (-) TimerEvent: {}
+[3.009621] (-) TimerEvent: {}
+[3.110164] (-) TimerEvent: {}
+[3.210607] (-) TimerEvent: {}
+[3.311061] (-) TimerEvent: {}
+[3.411504] (-) TimerEvent: {}
+[3.511912] (-) TimerEvent: {}
+[3.612313] (-) TimerEvent: {}
+[3.712772] (-) TimerEvent: {}
+[3.813409] (-) TimerEvent: {}
+[3.913880] (-) TimerEvent: {}
+[4.014422] (-) TimerEvent: {}
+[4.114940] (-) TimerEvent: {}
+[4.215339] (-) TimerEvent: {}
+[4.315852] (-) TimerEvent: {}
+[4.416327] (-) TimerEvent: {}
+[4.516752] (-) TimerEvent: {}
+[4.617169] (-) TimerEvent: {}
+[4.717538] (-) TimerEvent: {}
+[4.817972] (-) TimerEvent: {}
+[4.920321] (-) TimerEvent: {}
+[5.020735] (-) TimerEvent: {}
+[5.121400] (-) TimerEvent: {}
+[5.221851] (-) TimerEvent: {}
+[5.322330] (-) TimerEvent: {}
+[5.422805] (-) TimerEvent: {}
+[5.523239] (-) TimerEvent: {}
+[5.623668] (-) TimerEvent: {}
+[5.724086] (-) TimerEvent: {}
+[5.824607] (-) TimerEvent: {}
+[5.925066] (-) TimerEvent: {}
+[6.025712] (-) TimerEvent: {}
+[6.126524] (-) TimerEvent: {}
+[6.226994] (-) TimerEvent: {}
+[6.327429] (-) TimerEvent: {}
+[6.427843] (-) TimerEvent: {}
+[6.528302] (-) TimerEvent: {}
+[6.628788] (-) TimerEvent: {}
+[6.729283] (-) TimerEvent: {}
+[6.829805] (-) TimerEvent: {}
+[6.930358] (-) TimerEvent: {}
+[7.030944] (-) TimerEvent: {}
+[7.131510] (-) TimerEvent: {}
+[7.168945] (wheel_rpm_pipeline) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable test_cmd_vel_publisher\x1b[0m\n'}
+[7.231766] (-) TimerEvent: {}
+[7.332498] (-) TimerEvent: {}
+[7.433057] (-) TimerEvent: {}
+[7.440617] (wheel_rpm_pipeline) StdoutLine: {'line': b'[100%] Built target test_cmd_vel_publisher\n'}
+[7.475773] (wheel_rpm_pipeline) CommandEnded: {'returncode': 0}
+[7.476702] (wheel_rpm_pipeline) JobProgress: {'identifier': 'wheel_rpm_pipeline', 'progress': 'install'}
+[7.502922] (wheel_rpm_pipeline) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros_master/mukus_robotics/build/wheel_rpm_pipeline'], 'cwd': '/home/ros_master/mukus_robotics/build/wheel_rpm_pipeline', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'ros_master'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '5'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/nvidia-470:/usr/lib/nvidia-470:/usr/lib/nvidia-470:/usr/lib/nvidia-470:/usr/lib/nvidia-470'), ('HOME', '/home/ros_master'), ('OLDPWD', '/home/ros_master'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1054'), ('SYSTEMD_EXEC_PID', '2450'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15753'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros_master/mukus_robotics/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros_master'), ('JOURNAL_STREAM', '8:16798'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros_master'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ros_master/miniconda3/bin:/usr/local/cuda/bin:/home/ros_master/miniconda3/bin:/usr/local/cuda/bin:/home/ros_master/miniconda3/bin:/usr/local/cuda/bin:/home/ros_master/miniconda3/bin:/usr/local/cuda/bin:/home/ros_master/miniconda3/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ros_master/bt_project/Groot/build:/home/ros_master/bt_project/Groot/build:/home/ros_master/bt_project/Groot/build:/home/ros_master/bt_project/Groot/build:/home/ros_master/bt_project/Groot/build'), ('SESSION_MANAGER', 'local/roboros:@/tmp/.ICE-unix/1458,unix/roboros:/tmp/.ICE-unix/1458'), ('INVOCATION_ID', '7e3593bf6b3343e1864c17f7739ac4da'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PLDCH3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/ros_master/mukus_robotics/install/wheel_rpm_pipeline'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:20c34bec-b304-4489-895c-2a341c294c63'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros_master/mukus_robotics/build/wheel_rpm_pipeline'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ros_master/mukus_robotics/install/wheel_rpm_pipeline:/opt/ros/humble')]), 'shell': False}
+[7.513767] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[7.514049] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/lib/wheel_rpm_pipeline/script_a\n'}
+[7.514386] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Installing: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/lib/wheel_rpm_pipeline/script_b\n'}
+[7.514837] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Installing: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/lib/wheel_rpm_pipeline/test_cmd_vel_publisher\n'}
+[7.515675] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Set runtime path of "/home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/lib/wheel_rpm_pipeline/test_cmd_vel_publisher" to ""\n'}
+[7.515946] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/ament_index/resource_index/package_run_dependencies/wheel_rpm_pipeline\n'}
+[7.516128] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/ament_index/resource_index/parent_prefix_path/wheel_rpm_pipeline\n'}
+[7.516237] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/environment/ament_prefix_path.sh\n'}
+[7.516361] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Installing: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/environment/ament_prefix_path.dsv\n'}
+[7.516459] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/environment/path.sh\n'}
+[7.516553] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Installing: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/environment/path.dsv\n'}
+[7.516679] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/local_setup.bash\n'}
+[7.516853] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/local_setup.sh\n'}
+[7.516970] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/local_setup.zsh\n'}
+[7.517067] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Installing: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/local_setup.dsv\n'}
+[7.517172] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Installing: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/package.dsv\n'}
+[7.517354] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/ament_index/resource_index/packages/wheel_rpm_pipeline\n'}
+[7.517474] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/cmake/wheel_rpm_pipelineConfig.cmake\n'}
+[7.517578] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/cmake/wheel_rpm_pipelineConfig-version.cmake\n'}
+[7.517654] (wheel_rpm_pipeline) StdoutLine: {'line': b'-- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/package.xml\n'}
+[7.520883] (wheel_rpm_pipeline) CommandEnded: {'returncode': 0}
+[7.533858] (-) TimerEvent: {}
+[7.573177] (wheel_rpm_pipeline) JobEnded: {'identifier': 'wheel_rpm_pipeline', 'rc': 0}
+[7.574827] (-) EventReactorShutdown: {}

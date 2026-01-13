@@ -1,0 +1,37 @@
+# Training configuration for Faster R-CNN
+
+# Dataset paths
+train_image_dir: "data/train/images"
+train_annotations: "data/train/annotations.json"
+val_image_dir: "data/val/images"
+val_annotations: "data/val/annotations.json"
+
+# Model configuration
+num_classes: 5  # Number of object classes (excluding background)
+
+# Training parameters
+batch_size: 4
+num_epochs: 50
+learning_rate: 0.001
+weight_decay: 0.0001
+lr_step_size: 10
+lr_gamma: 0.1
+
+# Data loading
+num_workers: 4
+
+# Directories
+checkpoint_dir: "checkpoints"
+log_dir: "logs"
+results_dir: "results"
+
+# Class names (for visualization)
+class_names:
+  0: "Class 0"
+  1: "Class 1"
+  2: "Class 2"
+  3: "Class 3"
+  4: "Class 4"
+
+
+

@@ -1,0 +1,24 @@
+[0.037s] Invoking command in '/home/ros_master/mukus_robotics/build/wheel_rpm_pipeline': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros_master/mukus_robotics/build/wheel_rpm_pipeline -- -j8 -l8
+[0.277s] [ 50%] Built target script_b
+[0.291s] [100%] Built target script_a
+[0.344s] Invoked command in '/home/ros_master/mukus_robotics/build/wheel_rpm_pipeline' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros_master/mukus_robotics/build/wheel_rpm_pipeline -- -j8 -l8
+[0.380s] Invoking command in '/home/ros_master/mukus_robotics/build/wheel_rpm_pipeline': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros_master/mukus_robotics/build/wheel_rpm_pipeline
+[0.396s] -- Install configuration: "Release"
+[0.396s] -- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/lib/wheel_rpm_pipeline/script_a
+[0.396s] -- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/lib/wheel_rpm_pipeline/script_b
+[0.396s] -- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/ament_index/resource_index/package_run_dependencies/wheel_rpm_pipeline
+[0.397s] -- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/ament_index/resource_index/parent_prefix_path/wheel_rpm_pipeline
+[0.397s] -- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/environment/ament_prefix_path.sh
+[0.397s] -- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/environment/ament_prefix_path.dsv
+[0.397s] -- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/environment/path.sh
+[0.397s] -- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/environment/path.dsv
+[0.397s] -- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/local_setup.bash
+[0.397s] -- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/local_setup.sh
+[0.397s] -- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/local_setup.zsh
+[0.398s] -- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/local_setup.dsv
+[0.398s] -- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/package.dsv
+[0.398s] -- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/ament_index/resource_index/packages/wheel_rpm_pipeline
+[0.398s] -- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/cmake/wheel_rpm_pipelineConfig.cmake
+[0.398s] -- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/cmake/wheel_rpm_pipelineConfig-version.cmake
+[0.398s] -- Up-to-date: /home/ros_master/mukus_robotics/install/wheel_rpm_pipeline/share/wheel_rpm_pipeline/package.xml
+[0.404s] Invoked command in '/home/ros_master/mukus_robotics/build/wheel_rpm_pipeline' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros_master/mukus_robotics/build/wheel_rpm_pipeline
